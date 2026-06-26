@@ -18,5 +18,4 @@ function Allpages() {
         </Router>
     );
 }
-
 export default Allpages;

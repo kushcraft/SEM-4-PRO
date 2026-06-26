@@ -14,7 +14,7 @@ def signup(request):
         serializer.save()
         return Response({"message": "Signup Successful"})
 
-    return Response({"errors": "User already exists or invalid data"}, status=400)
+    return Response(serializer.errors,status=400)
 from .models import Student
 
 @api_view(["POST"])

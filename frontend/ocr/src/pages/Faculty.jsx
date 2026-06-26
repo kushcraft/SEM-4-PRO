@@ -524,7 +524,7 @@ const NAV = [
                 <span className="pending-num">14</span>
                 <span className="pending-word"> papers</span>
               </div>
-              <div className="pending-due">Due by Friday</div>
+              <div className="pending-due">Due by Frimjky</div>
             </div>
 
             {/* Footer */}
